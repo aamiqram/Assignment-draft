@@ -19,7 +19,7 @@
             <a href=""><button class="btn-primary">Sign Up</button></a>
         </nav>
         <div class="banner">
-            <h1 class="banner-title">Cool Dark UI Template for Webflow Agencies!</h1>
+            <h1>Cool Dark UI Template for Webflow Agencies!</h1>
             <button class="btn-primary">Stay Focused</button>
         </div>
     </header>
@@ -56,58 +56,83 @@
                     <img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt="">
                     <h4 class="r-name">Loved by Designers</h4>
                     <p class="review">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <img class="st-line" src="Assets/avatar.png" alt="">
-                    <p class="st-line">Reviewer name</p>
-                    <p class="st-line">Date</p>
+                    <div class="reviewer">
+                        <div>
+                        <img class="st-line" src="Assets/avatar.png" alt="">
+                        </div>
+                        <strong>Reviewer name</strong><br />
+                        <small>Date</small>
+                    </div>
                 </div>
                 <div class="reviews">
                     <img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt="">
                     <h4 class="r-name">Loved by Designers</h4>
                     <p class="review">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <img class="st-line" src="Assets/avatar.png" alt="">
-                    <p class="st-line">Reviewer name</p>
-                    <p class="st-line">Date</p>
+                    <div class="reviewer">
+                        <div>
+                        <img class="st-line" src="Assets/avatar.png" alt="">
+                        </div>
+                        <strong>Reviewer name</strong><br />
+                        <small>Date</small>
+                    </div>
                 </div>
                 <div class="reviews">
                     <img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt=""><img src="Assets/icon-star.png" alt="">
                     <h4 class="r-name">Loved by Designers</h4>
                     <p class="review">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <img class="st-line" src="Assets/avatar.png" alt="">
-                    <p class="st-line">Reviewer name</p>
-                    <p class="st-line">Date</p>
+                    <div class="reviewer">
+                        <div>
+                        <img class="st-line" src="Assets/avatar.png" alt="">
+                        </div>
+                        <strong>Reviewer name</strong><br />
+                        <small>Date</small>
+                    </div>
                 </div>
             </div>
          </sections>
-         <section class="wcbig">
+         <section class="cta-section">
             <div>
                 <h1>Ready to focus better</h1>
                 <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <button class="btn-primary">Ger Started Free</button>
-                <img src="Assets/wc-big.png" alt="">
+                <a href="#" class="cta-button">Get Started Free</a>
+                <div>
+                    <img src="Assets/wc-big.png" alt="web conf prev">
+                </div>
             </div>
          </section>
          </section>
-         <div class="newsletter-column">
-            <h6 class="raleway-normal NC-title">Let’s Get in Touch</h6>
-            <form action="">
-                <input type="email" name="" id="" placeholder="example@email.com">
-                <input type="text" name="" id="" placeholder="full name">
-                <textarea name="" id="" cols="30" rows="10" placeholder="write your message...."></textarea>
-                <input class="btn-primary" type="submit" value="Get in Touch">
-            </form>
-         </div>
+
+           <div class="container">
+    <div class="left">
+      <h1>Let's Get in<br />Touch</h1>
+    </div>
+    <div class="right">
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com" required />
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="full name" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="write your message...." required></textarea>
+
+        <button type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </div>
     </main>
-    <Footer class="footer-end">
-        <div>
-        <div class="f-logo">LOGO</div>
-        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        <nav class="links">
-        <a href="" class="links">Home</a>
-        <a href="" class="links">About</a>
-        <a href="" class="links">How It Works</a>
-        <a href="" class="links">Services</a>
-        </nav>
-        </div>
-    </Footer>
+    <footer class="footer">
+  <h1 class="footer-logo inter-normal">LOGO</h1>
+  <p class="footer-description">
+    Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+  </p>
+  <nav class="footer-nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#how">How it Works</a>
+    <a href="#services">Services</a>
+  </nav>
+</footer>
 </body>
 </html>
