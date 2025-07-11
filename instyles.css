@@ -43,5 +43,61 @@ nav {
     font-weight: bold;
     font-size: 65px;
 }
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.action-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-description{
+    color: #252432;
+    font-size: 24px;
+    font-weight: normal;
+}
+.action-content{
+    max-width: 520px;
+}
+.action-image{
+    width: 400px;
+    border-radius: 48px;
+}
+.pu-title{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+}
+.background{
+    background-color: bisque;
+}
+.productive-user{
+    border-radius: 24px;
+    padding: 50px 142px;
+    text-align: center;
+    margin-top: 116px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.productiveusers-stat{
+    display: flex;
+    justify-content: space-around;
 
-
+}
+.stat-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.stat-info{
+    font-size: 20px;
+}
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
